@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54E80C413209EA200FA1E94 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54E80C313209EA200FA1E94 /* ApplicationServices.framework */; };
+		A54E83A81320B1A300FA1E94 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54E83A71320B1A300FA1E94 /* Cocoa.framework */; };
+		A54E87C11320D1D500FA1E94 /* AnimView.m in Sources */ = {isa = PBXBuildFile; fileRef = A54E87C01320D1D500FA1E94 /* AnimView.m */; };
+		A54E87C51320D1E500FA1E94 /* anim.c in Sources */ = {isa = PBXBuildFile; fileRef = A54E87C31320D1E500FA1E94 /* anim.c */; };
+		A54E87CB1320D1F400FA1E94 /* rsrc.c in Sources */ = {isa = PBXBuildFile; fileRef = A54E87C71320D1F400FA1E94 /* rsrc.c */; };
+		A54E87CC1320D1F400FA1E94 /* snd.c in Sources */ = {isa = PBXBuildFile; fileRef = A54E87C91320D1F400FA1E94 /* snd.c */; };
+		A54E87CE1320D20C00FA1E94 /* grouch.rsrc in Resources */ = {isa = PBXBuildFile; fileRef = A54E87CD1320D20C00FA1E94 /* grouch.rsrc */; };
+		A5655FB8131B77A7007CEFED /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5655FB6131B77A7007CEFED /* AppController.m */; };
+		A5655FC7131B77DF007CEFED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A5655FC5131B77DF007CEFED /* Credits.rtf */; };
+		A5655FCA131B77EB007CEFED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5655FC8131B77EB007CEFED /* MainMenu.xib */; };
+		A5655FD5131B780C007CEFED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5655FD4131B780C007CEFED /* main.m */; };
+		A5966D4D131CD3C50007BD6C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5966D4C131CD3C50007BD6C /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D1107310486CEB800E47090 /* GrouchX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GrouchX-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* GrouchX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrouchX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54E80C313209EA200FA1E94 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		A54E83A71320B1A300FA1E94 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A54E87BF1320D1D500FA1E94 /* AnimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimView.h; path = source/AnimView.h; sourceTree = "<group>"; };
+		A54E87C01320D1D500FA1E94 /* AnimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimView.m; path = source/AnimView.m; sourceTree = "<group>"; };
+		A54E87C21320D1E500FA1E94 /* anim_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = anim_header.h; path = source/lib/anim_header.h; sourceTree = "<group>"; };
+		A54E87C31320D1E500FA1E94 /* anim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = anim.c; path = source/lib/anim.c; sourceTree = "<group>"; };
+		A54E87C41320D1E500FA1E94 /* anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = anim.h; path = source/lib/anim.h; sourceTree = "<group>"; };
+		A54E87C61320D1F400FA1E94 /* color_palettes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = color_palettes.h; path = source/lib/color_palettes.h; sourceTree = "<group>"; };
+		A54E87C71320D1F400FA1E94 /* rsrc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rsrc.c; path = source/lib/rsrc.c; sourceTree = "<group>"; };
+		A54E87C81320D1F400FA1E94 /* rsrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rsrc.h; path = source/lib/rsrc.h; sourceTree = "<group>"; };
+		A54E87C91320D1F400FA1E94 /* snd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = snd.c; path = source/lib/snd.c; sourceTree = "<group>"; };
+		A54E87CA1320D1F400FA1E94 /* snd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = snd.h; path = source/lib/snd.h; sourceTree = "<group>"; };
+		A54E87CD1320D20C00FA1E94 /* grouch.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = grouch.rsrc; path = resources/grouch.rsrc; sourceTree = "<group>"; };
+		A5655FB6131B77A7007CEFED /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = source/AppController.m; sourceTree = "<group>"; };
+		A5655FB7131B77A7007CEFED /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = source/AppController.h; sourceTree = "<group>"; };
+		A5655FC6131B77DF007CEFED /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = resources/English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5655FC9131B77EB007CEFED /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = resources/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5655FD4131B780C007CEFED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = source/main.m; sourceTree = "<group>"; };
+		A5966D4C131CD3C50007BD6C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5966D4D131CD3C50007BD6C /* AudioToolbox.framework in Frameworks */,
+				A54E80C413209EA200FA1E94 /* ApplicationServices.framework in Frameworks */,
+				A54E83A81320B1A300FA1E94 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5655FB7131B77A7007CEFED /* AppController.h */,
+				A5655FB6131B77A7007CEFED /* AppController.m */,
+				A54E87BF1320D1D500FA1E94 /* AnimView.h */,
+				A54E87C01320D1D500FA1E94 /* AnimView.m */,
+				A54E7F5A13208F4300FA1E94 /* lib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* GrouchX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* GrouchX */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = GrouchX;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A5655FD4131B780C007CEFED /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* GrouchX-Info.plist */,
+				A5655FC8131B77EB007CEFED /* MainMenu.xib */,
+				A54E87CD1320D20C00FA1E94 /* grouch.rsrc */,
+				A5655FC5131B77DF007CEFED /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A54E83A71320B1A300FA1E94 /* Cocoa.framework */,
+				A5966D4C131CD3C50007BD6C /* AudioToolbox.framework */,
+				A54E80C313209EA200FA1E94 /* ApplicationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A54E7F5A13208F4300FA1E94 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A54E87C21320D1E500FA1E94 /* anim_header.h */,
+				A54E87C41320D1E500FA1E94 /* anim.h */,
+				A54E87C31320D1E500FA1E94 /* anim.c */,
+				A54E87C61320D1F400FA1E94 /* color_palettes.h */,
+				A54E87C81320D1F400FA1E94 /* rsrc.h */,
+				A54E87C71320D1F400FA1E94 /* rsrc.c */,
+				A54E87CA1320D1F400FA1E94 /* snd.h */,
+				A54E87C91320D1F400FA1E94 /* snd.c */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* GrouchX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "GrouchX" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrouchX;
+			productInstallPath = "$(HOME)/Applications";
+			productName = GrouchX;
+			productReference = 8D1107320486CEB800E47090 /* GrouchX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Kevin Wojniak";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GrouchX" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* GrouchX */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* GrouchX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5655FC7131B77DF007CEFED /* Credits.rtf in Resources */,
+				A5655FCA131B77EB007CEFED /* MainMenu.xib in Resources */,
+				A54E87CE1320D20C00FA1E94 /* grouch.rsrc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5655FB8131B77A7007CEFED /* AppController.m in Sources */,
+				A5655FD5131B780C007CEFED /* main.m in Sources */,
+				A54E87C11320D1D500FA1E94 /* AnimView.m in Sources */,
+				A54E87C51320D1E500FA1E94 /* anim.c in Sources */,
+				A54E87CB1320D1F400FA1E94 /* rsrc.c in Sources */,
+				A54E87CC1320D1F400FA1E94 /* snd.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5655FC5131B77DF007CEFED /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5655FC6131B77DF007CEFED /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A5655FC8131B77EB007CEFED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5655FC9131B77EB007CEFED /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "GrouchX-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = GrouchX;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = "GrouchX-Info.plist";
+				PRODUCT_NAME = GrouchX;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "GrouchX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GrouchX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
