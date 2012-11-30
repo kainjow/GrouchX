@@ -118,8 +118,8 @@ snd_t* snd_new(const char *data, size_t size)
 	status = AudioQueueAllocateBuffer(snd->queue, header->length, &snd->buffer);
 	if (status != noErr) {
 		printf("AudioQueueAllocateBuffer: %ld\n", (long)status);
-		free(snd);
 		AudioQueueDispose(snd->queue, true);
+		free(snd);
 		return NULL;
 	}
 	
